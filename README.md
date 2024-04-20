@@ -47,6 +47,7 @@
 
    ```bash
    dnf install epel-release -y
+   dnf install bmon vim htop iftop net-tools bash-completion bind-utils -y
    ```
 
 ## Regras do Firewall
