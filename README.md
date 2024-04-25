@@ -109,6 +109,10 @@
    firewall-cmd --info-policy internal-external
    ```
 
+    ```bash
+   route
+   ```
+
 ## Configuração da Segunda Máquina
 
 1. Nome: namesrv01
