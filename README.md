@@ -120,7 +120,7 @@
    tracking
    ```
 
-## Configuração da Segunda Máquina autoridade dns
+# Configuração da Segunda Máquina autoridade dns
 
 1. Nome: namesrv01
 2. Placa única em modo rede exclusiva do hospedeiro GB Ethernet.
@@ -138,9 +138,18 @@
   
 4. clique em allow require e dasative o ipv6.
   
-5. Desabilite o selinux
+5. Desabilite o selinux(nao necessario)
 
+## Atualização e Instalação de Pacotes
 
+1. Atualize o sistema:
+
+   ```bash
+   dnf update -y
+   dnf install epel-release -y 
+   dnf install bind bind-utils vim-enhanced bash-completion bmon vim htop iftop net-tools git -y
+   reboot 
+   ```
 
 
 
