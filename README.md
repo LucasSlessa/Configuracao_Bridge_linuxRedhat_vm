@@ -112,6 +112,9 @@
     ```bash
    route
    ```
+     ```bash
+   bmon
+      ```
 
 ## Configuração da Segunda Máquina
 
