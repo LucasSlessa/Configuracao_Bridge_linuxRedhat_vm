@@ -115,6 +115,10 @@
      ```bash
    bmon
       ```
+    ```bash
+   chronyc
+   tracking
+   ```
 
 ## Configuração da Segunda Máquina
 
