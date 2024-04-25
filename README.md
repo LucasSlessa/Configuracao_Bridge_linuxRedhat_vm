@@ -125,7 +125,6 @@
 1. Nome: namesrv01
 2. Placa única em modo rede exclusiva do hospedeiro GB Ethernet.
 3. Configuração de rede:
-4. Desabilite o selinux
 
      nmtui (ou configura na tela antes da instalação)
 
@@ -135,6 +134,13 @@
 
    - Gateway: 192.168.56.11/24(apontamento pra rede anterior)
    - DNS: 8.8.8.8
-   - Search Domain: hpc.univap
+   - Search Domain: sd.aula 
+  
+4. Desabilite o selinux
 
 5. clique em allow require e dasative o ipv6.
+
+
+
+
+
