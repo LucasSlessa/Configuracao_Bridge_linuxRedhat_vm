@@ -120,7 +120,7 @@
    tracking
    ```
 
-## Configuração da Segunda Máquina
+## Configuração da Segunda Máquina autoridade dns
 
 1. Nome: namesrv01
 2. Placa única em modo rede exclusiva do hospedeiro GB Ethernet.
@@ -131,14 +131,16 @@
    
     nosso ip 192.168.56.12/24
    
-
-   - Gateway: 192.168.56.11/24(apontamento pra rede anterior)
+   - Hostname: namesrv01.sd.aula
+   - Gateway: 192.168.56.11(apontamento pra rede anterior)
    - DNS: 8.8.8.8
-   - Search Domain: sd.aula 
+   - Search Domain: sd.aula
   
-4. Desabilite o selinux
+4. clique em allow require e dasative o ipv6.
+  
+5. Desabilite o selinux
 
-5. clique em allow require e dasative o ipv6.
+
 
 
 
