@@ -55,14 +55,14 @@
 1. Adicione interfaces ao firewall:
 
    ```bash
-   firewall-cmd --zone=external --add-interface=enp1s0 --permanent
-   firewall-cmd --zone=internal --add-interface=enp2s0 --permanent
+   firewall-cmd --zone=external --add-interface=enp0s3 --permanent
+   firewall-cmd --zone=internal --add-interface=enp0s8 --permanent
    ```
 
 2. Defina a zona padrão para external:
 
    ```bash
-   firewall-cmd --set-default-zone=external --permanent
+   firewall-cmd --set-default-zone=external 
    ```
 
 3. Recarregue o firewall:
