@@ -284,19 +284,21 @@
      ll
    ```
 
-7. MUDAR DONOS
-   ```bash
-   chown named *.zone
-   chmod 600 *.zone   
-    ```
 
 
-8 . Criar as zonas
+7. Criar as zonas
    ```bash
    cd /named
    touch sd.aula.zone
    touch 56.168.192.in-addr.arpa.zone
    ```
+
+8. MUDAR DONOS
+   ```bash
+   chown named *.zone
+   chmod 600 *.zone   
+    ```
+
 zona sd.aula
 ```vi
 
