@@ -138,7 +138,7 @@
   
 4. clique em allow require e dasative o ipv6.
   
-5. Desabilite o selinux(nao necessario)
+5. Desabilite o selinux
 
 ## Atualização e Instalação de Pacotes
 
@@ -150,6 +150,34 @@
    dnf install bind bind-utils vim-enhanced bash-completion bmon vim htop iftop net-tools git -y
    reboot 
    ```
+
+
+2. criando a pasta dos logs
+
+   ```bash
+
+   mkdir /var/named/log/
+   chown named:named /var/named/log/
+   chmod 700 /var/named/log/
+
+   ```
+
+3. configuração do firewall
+
+   ```bash
+   firewall-cmd --remove-service=dhcpv6-client --remove-service=cockpit --permanent
+   firewall-cmd --add-service=dns --permanent
+   firewall-cmd --reload
+   firewall-cmd --list-all
+   ```
+
+4. Verificação
+   ```bash
+   route
+   ```
+
+5. Configuração do dns
+
 
 
 
