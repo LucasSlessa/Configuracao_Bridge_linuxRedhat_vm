@@ -287,7 +287,7 @@ include "/etc/named.root.key";
 
 7. Criar as zonas
    ```bash
-   cd /named
+   cd /var/named
    touch sd.aula.zone
    touch 56.168.192.in-addr.arpa.zone
    ```
@@ -369,6 +369,9 @@ $ORIGIN 56.168.192.in-addr.arpa.
       dig @192.168.56.12 uol.com.br
       dig @192.168.56.12 gmail.com
     ```
+
+
+obs mover aruivo de zona mv *.zone /var/named
 
     
    
