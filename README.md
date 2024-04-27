@@ -344,8 +344,13 @@ $ORIGIN 56.168.192.in-addr.arpa.
 11. start e habilitação/ verificação
 
     ```bash
+    chown named.named *.zone
+    
     named-checkzone sd.aula sd.aula.zone
     named-checkzone sd.aula 56.168.192.in-addr.arpa.zone
+
+    systemctl enable named.service
+    systemctl start named.service
 
     ```
 
