@@ -183,7 +183,7 @@
    ```
 
    ```vi
-   	//
+	//
 	// named.conf
 	//
 	// Provided by Red Hat bind package to configure the ISC BIND named(8) DNS
