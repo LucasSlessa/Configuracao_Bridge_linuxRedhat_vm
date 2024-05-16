@@ -300,7 +300,6 @@
 
 zona sd.aula
 ```vi
-
 $ORIGIN .
 $TTL 86400	; 1 dia
 sd.aula.		IN SOA	namesvr01.sd.aula. eduschiavo.univap.br. (
