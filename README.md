@@ -84,7 +84,7 @@
    firewall-cmd --reload
    ```
 
-6. Adicione zonas de ingresso e egresso à política:
+6. Adicione zonas de ingresso e Regresso à política:
 
    ```bash
    firewall-cmd --policy internal-external --add-ingress-zone=internal --permanent
